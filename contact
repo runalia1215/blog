@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>るなーん日記</title>
+    <meta name="description" content="雑多に好きなことをつらつら書きます">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+    <link href="blog_sub.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="image/favicon.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <div id="contact" class="big-bg">
+        <header class="page-header wrapper">
+            <h1><a href="index.html"><img class="logo" src="image/logo.svg"></a></h1>
+            <nav>
+                <ul class="main-nav">
+                    <li><a href="news.html">記事一覧</a></li>
+                    <li><a href="contact.html">連絡先</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="wrapper">
+            <h2 class="page-title">Contact</h2>
+            <form action="こ、これから実装します...はい...">
+                <div>
+                    <label for="name">お名前</label>
+                    <input type="text" id="name" name="your-name">
+                </div>
+                <div>
+                    <label for="email">メールアドレス</label>
+                    <input type="email" id="email" name="your-email">
+                </div>
+                <div>
+                    <label for="message">メッセージ</label>
+                    <textarea id="message" name="your-message"></textarea>
+                </div>
+
+                <input type="submit" class="button" value="送信">
+            </form>
+            <section id="sns">
+                <div class="wrapper">
+                    <div class="sns-box">
+                        <h3 class="sub-title">Instagram</h3>
+                        coming late...
+                    </div>
+                    <div class="sns-box">
+                        <h3 class="sub-title">X(Twitter)</h3>
+                        <a class="twitter-timeline" data-height="315"
+                            href="https://twitter.com/luna_duppoke?ref_src=twsrc%5Etfw">Tweets by luna_duppoke</a>
+                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+                    <div class="sns-box">
+                        <h3 class="sub-title">Youtube</h3>
+                        <li><a href="https://youtube.com/@user-dy7th6bu2e?si=yrhMkuRm7zVoEZTm">ルナ</a></li>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div><!-- /#home -->
+    <footer>
+        <div class="wrapper">
+            <p><small>&copy; cince2023 lunadiary</small></p>
+        </div>
+    </footer>
+</body>
+
+</html>
